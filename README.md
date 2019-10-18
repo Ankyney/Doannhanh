@@ -6,3 +6,5 @@ Dự án 2 đồ ăn nhanh ( gồm slide + project + document)
 + Lê Trí: Reported,Slide,Tester
 - Hướng dẫn chạy backend:
 + build with dependencies > run
+- Hướng dẫn chạy frontend trên visual
++ npm install > ng s
