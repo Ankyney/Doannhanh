@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+    <schema-selection match-catalog="export_hddt_db" match-schema="dbo"/>
+    <table-filter match-name="Company"/>
+    <table-filter match-name="AdminModule"/>
+    <table-filter match-name="AdminLogs"/>
+    <table-filter match-name="Admin"/>
+    <table-filter match-name="AdminRole"/>
+    <table-filter match-name="Account"/>
+    <table-filter match-name="PaymentSchedule"/>
+    <table-filter match-name="Transactions"/>
+    <table-filter match-name="DesignatedCredit"/>
+    <table-filter match-name="PaymentAsset"/>
+    <table-filter match-name="TransactionCategory"/>
+    <table-filter match-name="PaymentProcessor"/>
+    <table-filter match-name="PaymentMethod"/>
+    <table-filter match-name="CreditPlan"/>
+    <table-filter match-name="CreditPlanRecipient"/>
+    <table-filter match-name="Ledger"/>
+    <table-filter match-name="MainAccount"/>
+    <table-filter match-name="MainAccountCategory"/>
+
+</hibernate-reverse-engineering>

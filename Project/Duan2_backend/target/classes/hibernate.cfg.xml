@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.SQLServer2012Dialect</property>
+        <property name="hibernate.connection.url">jdbc:sqlserver://localhost:1433;databaseName=database</property>
+        <property name="hibernate.connection.username">sa</property>
+        <property name="hibernate.connection.password">tienvv</property>
+        <property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+        <property name="show_sql">true</property>
+        <property name="hibernate.current_session_context_class">thread</property>
+        <property name="hibernate.globally_quoted_identifiers">true</property>
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.connection.release_mode">auto</property>
+        <property name="hibernate.connection.autoReconnect">true</property>
+        <property name="hibernate.transaction.auto_close_session">true</property>
+        <property name="hibernate.transaction.flush_before_completion">true</property>
+        <mapping class="com.backend.entities.Company"/>
+        <mapping class="com.backend.entities.Admin"/>
+        <mapping class="com.backend.entities.AdminLogs"/>
+        <mapping class="com.backend.entities.AdminModule"/>
+        <mapping class="com.backend.entities.AdminRole"/>
+        <mapping class="com.backend.entities.Account"/>
+        <mapping class="com.backend.entities.Invoice"/>
+        <mapping class="com.backend.entities.Contact"/>
+        <mapping class="com.backend.entities.EntitlementProduct"/>
+        <mapping class="com.backend.entities.EntitlementContact"/>
+        <mapping class="com.backend.entities.InvoiceProduct"/>
+        <mapping class="com.backend.entities.DeliveryFramework"/>
+        <mapping class="com.backend.entities.DeliveryFrameworkContact"/>
+        <mapping class="com.backend.entities.DeliveryFrameworkDescription"/>
+        <mapping class="com.backend.entities.PaymentSchedule"/>
+        <mapping class="com.backend.entities.Transactions"/>
+        <mapping class="com.backend.entities.DesignatedCredit"/>
+        <mapping class="com.backend.entities.AccountPriceList"/>
+        <mapping class="com.backend.entities.DisbursementDistribution"/>
+        <mapping class="com.backend.entities.PaymentAsset"/>
+        <mapping class="com.backend.entities.TransactionCategory"/>
+        <mapping class="com.backend.entities.PaymentProcessor"/>
+
+        <mapping class="com.backend.entities.PaymentMethod"/>
+        <mapping class="com.backend.entities.Disbursement"/>
+        <mapping class="com.backend.entities.CreditPlan"/>
+        <mapping class="com.backend.entities.CreditPlanRecipient"/>
+        <mapping class="com.backend.entities.InvoiceLineTransaction"/>
+        <mapping class="com.backend.entities.Entitlement"/>
+        <mapping class="com.backend.entities.InvoiceTemplate"/>
+        <mapping class="com.backend.entities.InvoiceTemplateProperty"/>
+        <mapping class="com.backend.entities.InvoiceTemplateStructure"/>
+        <mapping class="com.backend.entities.InvoiceXMLBackup"/>
+        <mapping class="com.backend.entities.InvoiceXMLDetail"/>
+        <mapping class="com.backend.entities.InvoiceFrequency"/>
+        <mapping class="com.backend.entities.InvoiceFrequencyDetail"/>
+        <mapping class="com.backend.entities.Ledger"/>
+        <mapping class="com.backend.entities.Journal"/>
+        <mapping class="com.backend.entities.JournalLine"/>
+        <mapping class="com.backend.entities.MainAccount"/>
+        <mapping class="com.backend.entities.MainAccountCategory"/> 
+        <mapping class="com.backend.entities.Designation"/> 
+        <mapping class="com.backend.entities.DesignationPlan"/> 
+        <mapping class="com.backend.entities.DocumentCategory"/>
+        <mapping class="com.backend.entities.DocumentLink"/>
+        <mapping class="com.backend.entities.Membership"/>
+        <mapping class="com.backend.entities.MembershipCategory"/>
+    </session-factory>
+</hibernate-configuration>
