@@ -1,0 +1,30 @@
+/*phần footer*/
+#footer{
+    background: #e1f2f9;
+    height: auto;
+}
+#footer-2{
+    height: auto;
+    padding-top: 7px;
+    color: white;
+    background: #0094c3;
+    width: 100%;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+ul.fv li {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #373a3c;
+    font-size: 15px;
+    transition: all 0.3s;
+}
+.fooerr img {
+    width: 43px;
+    float: left;
+    margin: 10px 5px;}

@@ -1,0 +1,68 @@
+/* phần header*/
+
+.menu-nav{
+    padding-left: 180px;
+}
+.top-header{
+    padding: 25px;
+}
+.tope{
+    background: white;
+    height: 74px;
+}
+nav.navbar.navbar-inverse.navbar-fixed-top {
+    background-color: #ff854c;
+    border-color: #ff854c;
+
+}
+nav.navbar.navbar-inverse.navbar-fixed-top a {
+    color: white;
+    font-size: 16px;
+}
+nav.navbar.navbar-inverse.navbar-fixed-top a:hover {
+    color: #b92c28;
+
+}
+.logo-ct img {
+    width: 55%;
+}
+.image-cart{
+    width: 35px;
+}
+.cart{
+    margin-top: 18px;
+    float: left;
+}
+
+.cart.contach1 {
+    margin-left: 10px;
+    /* margin-top: 10px; */
+    padding-top: 3px;
+}
+img.image-user {
+    width: 29px;
+}
+.search-header{
+    margin-top: 18px;
+}
+.icon-search{
+    margin-right:8700px;
+    background: #ff854c;
+    color: white;
+}
+.search-text1{
+    border: 1px solid #ff854c;
+    height: 34px;
+}
+
+ul.dropdown-menu.nhap-xuat{
+    background: black;
+}
+#body{
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+}

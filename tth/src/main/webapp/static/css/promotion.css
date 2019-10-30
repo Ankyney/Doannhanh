@@ -1,0 +1,43 @@
+/*prommotion*/
+
+.sanpham1 {
+    margin-top: 150px;
+}
+.sanpham2 {
+    color: #000000;
+    font: 20px Muli;
+}
+.view-mode{
+    margin: 10px;
+}
+.giamgia{
+    background: pink;
+    height: auto;
+    opacity: 0.5;
+}
+.register-coupon-text{
+    color: white;
+    font: 21px Muli;
+    background: orange;
+    padding: 50px 50px 10px;
+    margin-top: 50px;
+    text-transform: uppercase;
+
+}
+.register-coupon{
+    width: 450px;
+    height: 240px;
+}
+.register-coupon-button{
+    color: white;
+    background: orange;
+    font: 14px Muli;
+    padding: 20px 40px 30px 30px;
+    text-transform: uppercase;
+    width: 170px;
+    height: 20px;
+}
+.span-discount{
+    font: 95px Roboto, sans-serif;
+    color: white;
+}

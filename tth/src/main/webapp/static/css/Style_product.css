@@ -1,0 +1,40 @@
+.product{
+    margin-top: 150px;
+}
+.title {
+    color: #000000;
+    font: 20px Muli;
+}
+.title1{
+    margin-top: 10px;
+    color: #6d6d6d;
+    font: 15px Muli;
+}
+/*San pham ben phai*/
+img.anh-sp {
+    width: 100%;
+}
+.su {
+    float: left;
+    width: 30.333333%;
+    margin: 15px 10px;
+}
+.noi-dung-ten-gia{
+    text-align: center;
+    padding-top: 15px;
+}
+a.ten-san-pham {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+p.giá-sp {
+    padding-top: 10px;
+    color: #e21d1d;
+}
+p.giá-sp {
+    padding-top: 10px;
+    color: #ff854c;
+    font-weight: bold;
+}
